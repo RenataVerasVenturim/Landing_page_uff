@@ -20,6 +20,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 40px;
+    align-items: center;
 
 }
 #classes li {
@@ -62,12 +63,13 @@ nav ul li a {
 
 .nav_mouse:hover{
 color:#797777;
+padding:11px;
 }
 
 
 /* Estilos do hero section */
 #hero {
-    background-image: url('https://www.uff.br/sites/default/files/republicas-niteroi.jpg');
+    background-image: url('images/imgprincipal.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -115,7 +117,10 @@ color:#797777;
 
 .btn:hover {
     background-color: #e6a53c;
+    padding: 13px 25px;
 }
+
+/*estilos cursos*/
 
 .btncurso {
     display: inline-block;
@@ -133,6 +138,7 @@ color:#797777;
 .btncurso:hover {
     background-color: #3b77ab;
     transition: background-color 0.3s;
+    padding:27px 70px;
 }
 #lista_cursos{
 text-align: center;
@@ -148,6 +154,9 @@ text-align: justify;
 }
 
 /* Estilos do contact section */
+#contact{
+    text-align: center;
+}
 
 form input,
 form textarea {
